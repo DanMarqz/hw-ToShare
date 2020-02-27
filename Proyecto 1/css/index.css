@@ -1,0 +1,52 @@
+/*El exterior de la calculadora No edita los botones ni la pantalla*/
+.calculadora { 
+    border: 1px rgb(255, 255, 255) ridge;  /*define un borde de la calculadora*/
+    width: 325px; /*define el ancho de la calculadora*/
+    text-align: center; /*Alínea los botones al centro del <div>*/
+    background-color: rgb(0, 0, 0); /*define el color del fondo del a calculadora*/
+}
+
+/*Pantalla de la calculadora*/
+#textoPantalla { 
+    width: 285px;
+    height: 40px;
+    font-size: 25px;
+    border: 1px rgb(32, 33, 33) solid; /*Modifica el color del border de la pantalla*/
+    text-align: right; 
+    position: relative; 
+    left: 12px;  
+    padding: 0px 5px; 
+    background-color: rgb(32, 33, 33); /*Modifica el color del fondo de la pantalla*/
+    color: white; 
+    font-family: "Verdana"; 
+    overflow: hidden;
+}
+
+/*Para editar los estilos de los botones que no son para eliminar valores*/
+.calculadora [type=button] { 
+    text-decoration: none;
+    font-size: 20px;
+    width: 75px;
+    height: 55px;
+    padding: 0;
+    font-family: arial;
+    background-color: black;
+    color: whitesmoke;
+    border-color: rgb(32, 33, 33);
+    margin-top: -13px;
+    margin-bottom: -5px;
+    margin-left: -5px;
+}
+
+.calculadora [type=button]:hover { /*hover es para cuando el cursor esté encima del botón cambie el estilo a:*/
+    color: #ffffff;
+    background-color: rgb(32, 33, 33);
+    text-decoration: none;
+}
+
+/*El estilo de los botones grandes para eliminar valores*/
+.calculadora input.largo { 
+    color: grey; 
+    width: 99.4px; 
+    height: 55px;
+}
