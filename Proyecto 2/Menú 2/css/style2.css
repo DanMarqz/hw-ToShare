@@ -1,0 +1,47 @@
+* { 
+    padding: 0; 
+    margin: auto; 
+    text-align: center; 
+}
+#cabecera { 
+    background-color: #ffffff; 
+}  
+h1 { 
+    font: bold 1.5em arial; 
+    padding: 0.5em; 
+}
+#navegador { 
+    background-color: #000000; 
+    padding: 0.5em; 
+}
+#navegador li { 
+    margin: 0px 5px; 
+    padding: 0.1em 1em 0.5em 1em;
+    background-color: #000000; 
+    width: 12%;float: left;
+    list-style-type: none;
+}
+#navegador li:hover { 
+    background-color: #ff0000; 
+}
+#navegador li a:link, #navegador li a:visited { 
+    color: #ffffff; 
+    text-decoration: none; 
+}
+#navegador li a:hover, #navegador li a:active { 
+    color:#000000 ; 
+    text-decoration: none; 
+}
+.borrar { 
+    clear: both; 
+}	
+#principal h2 { 
+    font: bold 1.5em arial; 
+    padding: 0.5em 
+}
+#principal p { 
+    font: normal 0.9em arial;
+    text-align: justify;
+    text-indent: 3em; 
+    padding: 0.5em 2em; 
+}
