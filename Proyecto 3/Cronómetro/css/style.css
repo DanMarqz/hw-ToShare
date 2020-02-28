@@ -1,0 +1,40 @@
+#cronometro { 
+    padding:10px; 
+    border: 5px red double; 
+    width: 300px;
+    height: 60px;
+    text-align: center; 
+    background-color: black; 
+    border-radius: 15px;
+    float: left; 
+    margin: 1em 3em 1em 3em; 
+}
+#reloj { 
+    padding: 5px 10px; 
+    width: 240px;
+    border: 1px solid black;
+    font: 1em europa, arial; 
+    text-align: center;
+    margin: auto; 
+    background-color: red;
+    color: black; 
+    border-radius: 3px;
+    font-family: digital_dream_fat_skewregular;
+}
+#cronometro [type=button] { 
+    margin: auto; 
+    margin-top: 12px;
+    font: normal 9pt arial; 
+    width: 100px; 
+    background-color: black;
+    border: 1px red solid;
+    color: red;
+    border-radius: 15px;
+    font-family: digital_dream_fat_skewregular;
+    size: fixed;
+} 
+#cronometro [type=button]:hover {
+    background-color: red;
+    color: black;
+    border-radius: 15px;
+}
